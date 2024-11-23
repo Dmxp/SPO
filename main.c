@@ -7,6 +7,6 @@ int main(int argc, char **argv)
  fgets(name, 255, stdin);
  printf("length = %d\n", strlen(name)); /* debug line */
  name[strlen(name)-1] = '\0'; /* remove the newline at the end */
- printf("Hell!o %s!\n", name);
+ printf("Hell0!o %s!\n", name);
  return 0;
 }
